@@ -1,0 +1,12 @@
+{
+    "servers": {
+        "chakra": {
+            "command": "pnpm",
+            "args": [
+                "dlx",
+                "@chakra-ui/react-mcp",
+            ],
+            "env": {}
+        }
+    }
+}
