@@ -4,10 +4,9 @@ import { Provider } from "../components/provider"
 
 export default function RootLayout({ children }) {
   return (
-    <html suppressHydrationWarning>
+    <html suppressHydrationWarning={true}>
       <body>
         <Provider>
-          <NavBar />
           {children}
         </Provider>
       </body>
